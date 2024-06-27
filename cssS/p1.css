@@ -1,0 +1,248 @@
+* {
+  font-family: roboto, Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+h1 {
+  font-family: Playfair;
+}
+.row {
+  margin: 0;
+}
+.container {
+  padding: 70px 0;
+
+}
+p, li {
+  color: #444;
+  font-size: 14px;
+  
+}
+header, .navbar {
+  background-color: rgb(15, 15, 15);
+  height: 100px;
+  
+}
+#nav-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+#Logo {
+  width: 75px;
+}
+.navbar-brand {
+  padding: 0;
+  color: rgb(202, 199, 199);
+}
+.navbar-brand:hover {
+  color: rgb(212, 208, 208);
+}
+#navbar-links a {
+  color: rgb(156, 147, 147);
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+#navbar-links a:hover {
+  background-color: rgba(114, 122, 122, 0.37);
+  transition: 0.3s;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+.navbar-expend-Ig .navbar-nav .nav-link {
+  padding: 1rem .8rem;
+}
+.nav-item.active { 
+  border-bottom: 3px solid rgb(224, 219, 219);
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.747);
+  color: aliceblue;
+  max-height: 300px;
+  overflow-y: auto;
+
+}
+p{ 
+  color: aliceblue;
+  font-size: 2.5vh;
+}
+/*sobre a empresa*/
+#about-area {
+background-color:  rgba(0, 0, 0, 0.747);
+}
+.main-title {
+color: rgb(158, 158, 158);
+margin: 0 0 65px 0;
+font-size: 35px;
+text-align: center }
+main{
+  background-color:  rgb(0, 0, 0);
+}
+
+
+
+
+
+/* * {
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    color: white;
+}
+  h1 {
+    font-family: Playfair;
+}
+  .row {
+    margin: 0;
+}
+  .container {
+    padding: 70px 0;
+
+}
+  p, li {
+    color: #444;
+    font-size: 14px;
+    
+}
+  header, .navbar {
+    background-color: rgb(15, 15, 15);
+    height: 100px;
+    
+}
+  #nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+ #Logo {
+    width: 75px;
+ }
+ .navbar-brand {
+    padding: 0;
+    color: rgb(202, 199, 199);
+ }
+ .navbar-brand:hover {
+    color: rgb(212, 208, 208);
+ }
+ #navbar-links a {
+    color: rgb(156, 147, 147);
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+#navbar-links a:hover {
+    background-color: rgba(114, 122, 122, 0.37);
+    transition: 0.3s;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+ .navbar-expend-Ig .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+ .nav-item.active { 
+    border-bottom: 3px solid rgb(224, 219, 219);
+}
+
+body {
+    background-color: rgb(94, 94, 94);
+    color: aliceblue;
+}
+p{ 
+    color: aliceblue;
+    font-size: 3vh;
+}
+/*sobre a empresa/
+#about-area {
+  background-color:  rgba(0, 0, 0, 0.747);
+}
+.main-title {
+  color: rgb(158, 158, 158);
+  margin: 0 0 65px 0;
+  font-size: 40px;
+  text-align: center;
+}
+.main-title::after {
+  content: "";
+  border-top: 2px solid rgb(138, 255, 138) ;
+  width: 15%;
+  position: absolute;
+  top: -50px;
+  left: 42.5 ;
+}
+.about-title {
+  font-size: 17px;
+  color: rgb(177, 177, 177);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/*slider/
+
+.carousel-inner img {
+  width: 100%;
+  height: 500px; /* Defina a altura desejada /
+  object-fit: cover; /* Ajusta a imagem para cobrir o container /
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para os controles /
+  border-radius: 50%; /* Controles circulares /
+  padding: 10px;
+}
+.carousel-indicators li {
+  background-color: #000; /* Cor dos indicadores /
+}
+
+/*slider
+.container-fluid {
+  padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+  height: 90vh;
+}
+
+#mainSlider .carousel-caption {
+  top: 30%;
+}
+
+#mainSlider .carousel-caption h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 100px;
+  color: #FFF;
+}
+
+.main-btn {
+  background-color: #65DAF9;
+  color: #FFF;
+  text-transform: uppercase;
+  width: 200px;
+  height: 60px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 3px solid transparent;
+  transition: .5s;
+}
+
+.main-btn:hover {
+  text-decoration: none;
+  color: #FFF;
+  background-color: transparent;
+  border-color: #3EC1D5;
+}
+
+.carousel-indicators .active {
+  background-color: #65DAF9;
+}  */
