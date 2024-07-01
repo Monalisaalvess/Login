@@ -1,0 +1,157 @@
+    * {
+  background-color: #ffffffab;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+    hend, body{
+  font-family: roboto, Arial, Helvetica, sans-serif;
+  line-height: 1.5rem;
+  overflow-y: auto;
+  max-height: 300px;
+  overflow: hidden;
+}
+
+    main { 
+  padding: 40px 0; 
+}
+
+.navbar-nav {background-color: #070245;}
+
+  .container {
+   padding: 115px 9px;
+}
+
+#nav-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+  .navbar {
+   background-color: #070245;
+   height: 100px;
+}
+
+#Logo {
+  width: 75px;
+}
+
+  .navbar-brand {
+   padding: 0;
+   font-size: 0;
+   color: rgb(0, 0, 0);
+   font-family: Cormorant Infant;
+}
+
+  .row {
+   margin: 0;
+}
+    h1{
+      color: white;
+      background-color: #070245;
+      width: 0;
+      font-size: 2.3rem;
+    }
+
+    h3 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+    p {
+  font-size: 1.4rem;
+  text-align: center;
+}
+#navbar-links{
+  background-color: #070245;
+  height: 0;
+}
+#navbar-links a {
+  color: #aeaeaf85;
+  font-size: 1.1rem;
+  padding-top: 10px;
+  padding-right: 35px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+#navbar-links a:hover {
+  background-color: rgba(100, 100, 146, 0.425);
+  transition: 0.2s;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-right: 35px;
+  padding-bottom: 5px;
+  padding-left: 20px ;
+}
+
+#about-area {
+  padding: 60px; 
+}
+
+  .container {
+  max-width: 1100px; 
+  margin: 17px auto;
+  padding: 0 10px; 
+}
+
+  .main-title {
+    font-family: Cormorant Infant;
+    color: #070245; 
+    margin-bottom: 15px; 
+    font-size: 2.4rem; 
+    text-align: center; 
+    margin: 0 0 25px 0;
+  }
+    ul {
+  line-height: 1.1rem; 
+  margin-bottom: 1px;
+  font-size: 1.1rem; 
+  margin-left: 2px; 
+}
+
+li{
+  color: #030122;
+}
+    img {
+      padding: 5px;
+      max-width: 65%; 
+      display: block; 
+      margin-bottom: 20px;
+      font-size: large;
+}
+.llogoo{
+  padding: 0;
+  max-width: 0; 
+  margin-bottom: 0;
+}
+ 
+
+
+/*
+#1c0775
+#150565
+#0e0455
+#070245
+#000035
+*/
+
+
+/*
+.navbar-brand:hover {
+  color: rgba(85, 82, 82, 0.815);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 1rem .8rem;
+}
+
+
+.nav-item.active { 
+  border-bottom: 3px solid rgb(184, 2, 2);
+}
+  
+
++++++#/about-area
+/* 
